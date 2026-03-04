@@ -6,14 +6,16 @@ void main (){
   int name = int.parse(stdin.readLineSync()!);
   print("Cual es tu medalla ${name}");
 
- if (name <= 100 ){
+ if (name >= 100 ){
   print("Medalla de oro");
 
-} else if (name >= 50 ){
+} else
+if ((name >= 50)&&(name <= 99)){
   print("medalla de plata");
-}
- 
- if() print("");
+}else 
+if(name < 50){
+ print("sigue intentando");
+ }else
+ ("error");
 } 
 
-}
