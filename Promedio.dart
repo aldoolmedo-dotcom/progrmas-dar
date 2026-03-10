@@ -10,23 +10,20 @@ void main(){
   int number = int.parse(stdin.readLineSync()!);
   print("materias ${number}");
   
+int calificacion;
+int nota;
 
 for(int nota= 1 ; nota <=number; nota++ ){;
 print("Ingresa la Calificacion $nota");
 int calificacion = int.parse(stdin.readLineSync()!);
 print("materias ${calificacion}");
 int suma = calificacion*nota;
+
+}
+int suma = calificacion*nota;
 print("RESULTADO");
 print("Alumno$name");
 print("promedio$suma");
-
-
-
-
-
-}
-
- 
 
 
 }
